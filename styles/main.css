@@ -561,9 +561,12 @@ li.bar:last-of-type { margin-bottom: 0; }
 
 /***** Modal *****/
 .project-modal {
+    align-items: center;
     backdrop-filter: blur(20px);
     background: var(--bg-transparent-color);
+    display: flex;
     height: 100vh;
+    justify-content: center;
     left: 0;
     opacity: 0;
     position: fixed;
